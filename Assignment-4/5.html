@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            text-align:center;
+            position:fixed;
+            
+        }
+        #button{
+           margin:25% 50%;
+           height:90px;
+           width:250px;
+           z-index:1;
+           background-color:#ff3b4e;
+           border:0;
+           border-radius:7px;
+           font-size: xx-large;
+        }
+        #button:hover{
+            background-color:#fc051d;
+            cursor:pointer; 
+            color:#fff;
+            box-shadow: 5px 5px 15px red;
+        }
+        #sale{
+            margin:23% 65%;
+           height:50px;
+           width:120px;
+           z-index:2;
+           background-color:#32323a;
+           color:#fff;
+           font-size: x-large;
+           border:0;
+           border-radius:11px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="button">
+        <label for="button"></label>
+        <input id="button" type="submit" value="Buy Now">
+        <input  id="sale" type="button" value="15% off">
+    </div>
+</body>
+</html>

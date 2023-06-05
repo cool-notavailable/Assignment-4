@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'DM Sans display', sans-serif;
+}
+body{
+    background-color: #100c07;
+}
+.content{
+    padding:10px 0px;
+    margin:100px 0px;
+    text-align: start;
+    color:#fff;
+}
+h1{
+    font-family: normal;
+}
+.maincontent{
+    width:60%;
+    height:70vh;
+}
+article{
+    margin-left:20px;
+    display:block;
+   
+    
+}
+article h1{
+    font-size: 3rem;
+    margin-top:70px;
+   
+}
+article p{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height:1.5;
+    font-weight:500; 
+    font-size:medium;
+} 
+article input{
+    /* background-color:#1500d3d2; */
+    
+    background-color:#0a1af8a1;
+    cursor:pointer;
+    border:none;
+    border-radius:4px;
+    padding:10px 20px;
+    font-weight:600;
+    margin-top: 10px;
+    color:#fff;
+}
+article input:hover{
+    cursor:pointer;
+    background-color:#0a1af8;
+    
+}
+div>img{
+   
+    background-blend-mode:overlay;
+    background-color: #100c07;
+  
+
+    width:40%;
+    padding:50px 50px;
+    
+}
+img{
+    float:right;
+}
+ 
